@@ -1,0 +1,26 @@
+/* Genel uygulama stilleri */
+body {
+    font-family: 'Lato', sans-serif;
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    color: #333;
+    margin: 0;
+    padding: 0;
+    transition: background 0.5s;
+}
+
+/* Başlık stilleri */
+header {
+    background: rgba(53, 66, 74, 0.9);
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Ana içerik alanı */
+main {
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}

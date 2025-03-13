@@ -1,0 +1,13 @@
+{
+    "name": "src-package",
+    "description": "Core functionality packages for the project.",
+    "require": {
+        "symfony/console": "^5.0",
+        "doctrine/orm": "^2.9",
+        "twig/twig": "^3.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0",
+        "friendsofphp/php-cs-fixer": "^2.16"
+    }
+} 

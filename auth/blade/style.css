@@ -1,0 +1,74 @@
+/* Genel Stil Ayarları */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e9ecef; /* Sayfa arka plan rengi */
+}
+
+/* Header Stili */
+header {
+    background-color: #35424a; /* Header arka plan rengi */
+    color: #ffffff; /* Metin rengi */
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0; /* Başlık için dış boşluk kaldırıldı */
+}
+
+header nav ul {
+    list-style-type: none; /* Liste işaretlerini kaldır */
+    padding: 0; /* İç boşluk kaldır */
+}
+
+header nav ul li {
+    display: inline; /* Liste elemanlarını yan yana göster */
+    margin: 0 15px; /* Elemanlar arasında boşluk */
+}
+
+header nav a {
+    color: #ffffff; /* Bağlantı rengi */
+    text-decoration: none; /* Altı çizili bağlantı kaldırıldı */
+}
+
+/* Aside Stili */
+aside {
+    background-color: #f0f4f8; /* Yan menü arka plan rengi */
+    padding: 20px;
+    width: 250px; /* Yan menü genişliği */
+    float: left; /* Yan menüyü sola yasla */
+    height: 100vh; /* Yüksekliği tam sayfa yap */
+}
+
+aside h2 {
+    color: #35424a; /* Başlık rengi */
+}
+
+aside ul {
+    list-style-type: none; /* Liste işaretlerini kaldır */
+    padding: 0; /* İç boşluk kaldır */
+}
+
+aside ul li a {
+    color: #007bff; /* Bağlantı rengi */
+    text-decoration: none; /* Altı çizili bağlantı kaldırıldı */
+}
+
+/* Footer Stili */
+footer {
+    background-color: #35424a; /* Footer arka plan rengi */
+    color: #ffffff; /* Metin rengi */
+    padding: 20px;
+    text-align: center; /* Ortalanmış metin */
+}
+
+footer a {
+    color: #ffffff; /* Bağlantı rengi */
+    text-decoration: none; /* Altı çizili bağlantı kaldırıldı */
+}
+
+footer a:hover {
+    text-decoration: underline; /* Üzerine gelindiğinde altı çizili */
+}

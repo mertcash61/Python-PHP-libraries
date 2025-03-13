@@ -1,0 +1,73 @@
+1. Python Kütüphaneleri
+
+Python kütüphanelerini indirmek için pip (Python'un paket yöneticisi) kullanabilirsiniz.
+
+
+pip ile Kütüphane İndirme
+Terminal veya komut istemcisini açın ve aşağıdaki komutları kullanarak kütüphaneleri indirin:
+
+pip install numpy
+pip install pandas
+pip install matplotlib
+pip install scikit-learn
+
+b. requirements.txt Dosyası
+Bir requirements.txt dosyası oluşturarak tüm kütüphaneleri tek seferde indirebilirsiniz. Dosya içeriği şöyle olabilir:
+
+numpy
+pandas
+matplotlib
+scikit-learn
+
+Daha sonra terminalde şu komutu çalıştırarak tüm kütüphaneleri indirin:
+
+pip install -r requirements.txt
+
+
+2. PHP Kütüphaneleri
+
+PHP kütüphanelerini indirmek için Composer kullanabilirsiniz.
+
+
+a. Composer ile Kütüphane İndirme
+
+Eğer Composer yüklü değilse, Composer resmi web sitesinden yükleyebilirsiniz.
+
+Terminal veya komut istemcisini açın ve aşağıdaki komutları kullanarak kütüphaneleri indirin:
+
+composer require symfony/symfony
+composer require laravel/laravel
+composer require guzzlehttp/guzzle
+composer require monolog/monolog
+
+b. composer.json Dosyası
+
+Bir composer.json dosyası oluşturarak tüm kütüphaneleri tek seferde indirebilirsiniz. Dosya içeriği şöyle olabilir:
+
+{
+    "require": {
+        "symfony/symfony": "^5.0",
+        "laravel/laravel": "^8.0",
+        "guzzlehttp/guzzle": "^7.0",
+        "monolog/monolog": "^2.0"
+    }
+}
+
+Daha sonra terminalde şu komutu çalıştırarak tüm kütüphaneleri indirin:
+
+composer install
+
+3. Veritabanı Kütüphaneleri
+
+Eğer veritabanı kütüphanelerini indirmek istiyorsanız, SQL dosyasını kullanarak veritabanınızı oluşturabilirsiniz.
+
+a. SQL Dosyasını Kullanma
+
+public/kütüphaneler.sql dosyasını bir veritabanı yönetim aracı (örneğin, phpMyAdmin veya MySQL Workbench) kullanarak çalıştırabilirsiniz.
+
+1. Veritabanı yönetim aracınızı açın.
+2. Yeni bir veritabanı oluşturun.
+3. kütüphaneler.sql dosyasını içe aktarın.
+
+Sonuç
+Bu adımları izleyerek Python ve PHP kütüphanelerini indirebilir ve veritabanınızı oluşturabilirsiniz. Herhangi bir sorunuz veya ek isteğiniz varsa, lütfen belirtin!

@@ -1,0 +1,97 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+body {
+    font-family: 'Lato', sans-serif;  
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    color: #333;
+    transition: background 0.5s; /* Arka plan geçişi */
+}
+
+header {
+    background: rgba(53, 66, 74, 0.8);
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #35424a;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background: #ffffff; /* Arka plan rengi */
+    margin: 10px 0; /* Dış boşluk */
+    padding: 15px; /* İç boşluk */
+    border-radius: 5px; /* Kenar yuvarlama */
+    transition: background-color 0.3s, transform 0.2s; /* Geçiş efektleri */
+}
+
+ul li:hover {
+    background-color: #e9ecef; /* Üzerine gelindiğinde arka plan rengi */
+    transform: scale(1.02); /* Üzerine gelindiğinde büyütme efekti */
+}
+
+/* Bağlantı stilleri */
+a {
+    color: #007bff; /* Bağlantı rengi */
+    text-decoration: none; /* Altı çizili bağlantı kaldırıldı */
+    transition: color 0.3s; /* Bağlantı rengi geçişi */
+    font-weight: bold; /* Kalın yazı tipi */
+}
+
+a:hover {
+    color: #0056b3; /* Üzerine gelindiğinde renk değişimi */
+    text-decoration: underline; /* Üzerine gelindiğinde altı çizili */
+}
+
+/* Özel WordPress bağlantısı stili */
+ul li:last-child a {
+    color: #ff4500; /* WordPress bağlantısı için özel renk */
+    font-size: 1.1em; /* Biraz daha büyük yazı tipi */
+}
+
+h2 {
+    color: #35424a;
+    margin-top: 20px;
+}
+
+footer {
+    background-color: rgba(53, 66, 74, 0.8); /* Arka plan rengi */
+    color: #ffffff; /* Metin rengi */
+    padding: 20px; /* İç boşluk */
+    text-align: center; /* Ortalanmış metin */
+    position: relative; /* Konumlandırma */
+    bottom: 0; /* Sayfanın en altına yerleştir */
+    width: 100%; /* Tam genişlik */
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2); /* Üstten gölge efekti */
+}
+
+footer a {
+    color: #007bff; /* Bağlantı rengi */
+    text-decoration: none; /* Altı çizili bağlantı kaldırıldı */
+}
+
+footer a:hover {
+    text-decoration: underline; /* Üzerine gelindiğinde altı çizili */
+}
+
+#main-title {
+    transition: color 0.3s; /* Renk geçişi */
+    font-size: 2.5em; /* Başlık boyutu */
+    text-align: center; /* Ortalanmış metin */
+    margin: 20px 0; /* Dış boşluk */
+}

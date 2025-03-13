@@ -1,0 +1,64 @@
+/* Genel stil ayarları */
+body {
+    font-family: 'Lato', sans-serif;  
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    color: #333;
+    margin: 0;
+    padding: 0;
+    transition: background 0.5s; /* Arka plan geçişi */
+}
+
+/* Başlık stilleri */
+header {
+    background: rgba(53, 66, 74, 0.8);
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Ana içerik alanı */
+main {
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Başlık renkleri */
+h1, h2 {
+    color: #35424a;
+}
+
+/* Liste stilleri */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background: #ffffff;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+ul li:hover {
+    background-color: #e9ecef;
+}
+
+/* Bağlantı stilleri */
+a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s; /* Bağlantı rengi geçişi */
+}
+
+a:hover {
+    color: #0056b3; /* Üzerine gelindiğinde renk değişimi */
+}
+
+/* H2 başlıkları için özel stil */
+h2 {
+    margin-top: 20px;
+}

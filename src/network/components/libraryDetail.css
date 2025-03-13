@@ -1,0 +1,14 @@
+.library-detail {
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.library-detail h2 {
+  color: #35424a;
+}
+
+.library-detail p {
+  color: #666;
+} 

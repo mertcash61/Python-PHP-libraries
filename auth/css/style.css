@@ -1,0 +1,144 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e9ecef;
+    color: #333;
+}
+
+header {
+    background-color: #35424a;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #35424a;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background: #ffffff;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+ul li:hover {
+    background-color: #e9ecef;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+/* Aside Stili */
+aside {
+    background-color: #f0f4f8; /* Yan menü arka plan rengi */
+    padding: 20px;
+    width: 250px; /* Yan menü genişliği */
+    float: left; /* Yan menüyü sola yasla */
+    height: 100vh; /* Yüksekliği tam sayfa yap */
+}
+
+aside h2 {
+    color: #35424a; /* Başlık rengi */
+}
+
+aside ul {
+    list-style-type: none; /* Liste işaretlerini kaldır */
+    padding: 0; /* İç boşluk kaldır */
+}
+
+aside ul li a {
+    color: #007bff; /* Bağlantı rengi */
+    text-decoration: none; /* Altı çizili bağlantı kaldırıldı */
+}
+
+/* Footer Stili */
+footer {
+    background-color: #35424a; /* Footer arka plan rengi */
+    color: #ffffff; /* Metin rengi */
+    padding: 20px;
+    text-align: center; /* Ortalanmış metin */
+}
+
+footer a {
+    color: #ffffff; /* Bağlantı rengi */
+    text-decoration: none; /* Altı çizili bağlantı kaldırıldı */
+}
+
+footer a:hover {
+    text-decoration: underline; /* Üzerine gelindiğinde altı çizili */
+}
+
+/* Form Stilleri */
+form {
+    margin: 20px 0; /* Form için dış boşluk */
+}
+
+.form-group {
+    margin-bottom: 15px; /* Form elemanları arasında boşluk */
+}
+
+input[type="email"],
+input[type="password"],
+input[type="text"] {
+    width: 100%; /* Genişlik ayarı */
+    padding: 10px; /* İç boşluk */
+    border: 1px solid #ccc; /* Kenar rengi */
+    border-radius: 4px; /* Kenar yuvarlama */
+}
+
+button {
+    width: 100%; /* Genişlik ayarı */
+    padding: 10px; /* İç boşluk */
+    background-color: #007bff; /* Buton arka plan rengi */
+    color: white; /* Buton metin rengi */
+    border: none; /* Kenar kaldırıldı */
+    border-radius: 4px; /* Kenar yuvarlama */
+    cursor: pointer; /* İmleç değişimi */
+}
+
+button:hover {
+    background-color: #0056b3; /* Üzerine gelindiğinde buton rengi */
+}
+

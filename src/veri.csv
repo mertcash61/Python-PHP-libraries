@@ -1,0 +1,20 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# CSV dosyasını oku
+data = pd.read_csv('data.csv')  # 'veri.csv' dosyasının yolunu belirtin
+
+# İlk birkaç satırı görüntüle
+print(data.head())
+
+# Temel istatistikleri göster
+print(data.describe())
+
+# Belirli bir sütunun dağılımını görselleştir
+plt.figure(figsize=(10, 6))
+plt.hist(data['sütun_adı'], bins=30, color='blue', alpha=0.7)  # 'sütun_adı' kısmını uygun sütun adıyla değiştirin
+plt.title('Sütun Dağılımı')
+plt.xlabel('Değerler')
+plt.ylabel('Frekans')
+plt.grid(axis='y', alpha=0.75)
+plt.show()
